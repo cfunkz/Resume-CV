@@ -9,11 +9,11 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
-    & a {
+    & #top {
         text-decoration: none;
         color: #fff;
     }
-    & a:hover {
+    & #top:hover {
         text-decoration: underline;
     }
 }
