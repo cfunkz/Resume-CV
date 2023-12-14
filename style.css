@@ -42,6 +42,9 @@ body {
         text-decoration: underline;
         text-align: center;
     }
+    & summary:hover {
+        text-decoration: underline;
+    } 
 }
 
 header {
