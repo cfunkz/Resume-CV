@@ -39,13 +39,9 @@ body {
 
 #quickview {
     cursor: pointer;
-    & ul li a:hover {
-        text-decoration: underline;
-        text-align: center;
-    }
     & summary:hover {
         text-decoration: underline;
-    } 
+    }
 }
 
 header {
