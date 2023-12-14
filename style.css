@@ -125,15 +125,15 @@ ul li {
         background-color: #02913e;
         border-radius: 10px;
     }
-    & li:hover {
-        background-color: rgb(66, 66, 66);
-    }
 }
-.skills li {
+.skills a {
     display: flex;
     justify-content: space-between;
     background-color: #333;
     color: #fff;
+    & :hover {
+        background-color: rgb(66, 66, 66);
+    }
 }
 
 .projects {
