@@ -71,6 +71,7 @@ header p {
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 5px 5px #3333334f;
+    overflow: auto;
 }
 
 .info h2, .education h2, .skills h2, .about-me h2, .work h2, .projects h2 {
@@ -81,14 +82,13 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
-    table-layout: fixed;
 }
+
 
 th, td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
-    word-wrap: break-word;
 }
 
 th {
@@ -144,4 +144,3 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
