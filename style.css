@@ -138,7 +138,7 @@ ul li {
 
 .projects {
     & li {
-        background-color: #02913e; /* Light red for Projects */
+        background-color: #02913e;
         color: #fff;
     }
     & li:hover {
